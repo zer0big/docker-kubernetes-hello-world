@@ -12,7 +12,7 @@ spec:
       containers:
       - name: hello-world-pod
         #image: zerobig/helloworld-spring-boot:${BUILD_NUMBER}
-        image: zerobig/docker-kubernetes-helloworld:v1.0
+        image: zerobig/docker-kubernetes-helloworld:verno
         imagePullPolicy: Always
         ports: 
         - containerPort: 80
