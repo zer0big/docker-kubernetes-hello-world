@@ -12,6 +12,7 @@ spec:
       containers:
       - name: hello-world-pod
         image: zerobig/helloworld-spring-boot:latest
+        imagePullPolicy: Always
         ports: 
         - containerPort: 80
         - containerPort: 443
