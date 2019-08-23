@@ -8,7 +8,7 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "Hello Jenkins Docker&K8S Pipeline 1";
+        return "Hello Jenkins Docker&K8S Pipeline 2";
     }
     
 }
